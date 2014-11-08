@@ -1,0 +1,99 @@
+{
+  "name": "submission",
+  "plural": "submissions",
+  "base": "PersistedModel",
+  "properties": {
+    "companyName": {
+      "type" :"string",
+      "required": true
+    },
+    "containsExchangePlan": {
+      "type" :"boolean",
+      "required": true
+    },
+    "currentReviewStatus": {
+      "type" :"string",
+      "required": true
+    },
+    "effectiveDate": {
+      "type" :"date",
+      "required": true
+    },
+    "finalDetermination": {
+      "type" :"string",
+      "required": true
+    },
+    "finalRateIncrease": {
+      "type" :"string",
+      "required": true
+    },
+    "issuerRateRequestJustification": {
+      "type" :"string",
+      "required": false
+    },
+    "issuerJustificationForUnreasonableRate": {
+      "type" :"string",
+      "required": false
+    },
+    "issuerID": {
+      "type" :"string",
+      "required": true
+    },
+    "market": {
+      "type" :"string",
+      "required": true
+    },
+    "productID": {
+      "type" :"string",
+      "required": true
+    },
+    "productName": {
+      "type" :"string",
+      "required": true
+    },
+    "productType": {
+      "type" :"string",
+      "required": true
+    },
+    "regulatorDeterminationJustification": {
+      "type" :"string",
+      "required": false
+    },
+    "requestedRateIncrease": {
+      "type" :"string",
+      "required": true
+    },
+    "reviewStatus": {
+      "type" :"string",
+      "required": true
+    },
+    "reviewStatusDate": {
+      "type" :"string",
+      "required": true
+    },
+    "reviewer": {
+      "type" :"string",
+      "required": true
+    },
+    "stateCode": {
+      "type" :"string",
+      "required": true
+    },
+    "stateName": {
+      "type" :"string",
+      "required": true
+    },
+    "submissionDate": {
+      "type" :"date",
+      "required": true
+    },
+    "submissionPeriod": {
+      "type" :"string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

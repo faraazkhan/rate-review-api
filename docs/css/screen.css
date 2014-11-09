@@ -451,7 +451,7 @@ body #content_message {
   color: #999999;
 }
 body #header {
-  background-color: blue;
+  background-color: #268bd2;
   position: fixed;
   width: 100%;
   top: 0;

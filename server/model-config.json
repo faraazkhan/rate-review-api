@@ -28,7 +28,7 @@
     "public": false
   },
   "submission": {
-    "dataSource": "db",
+    "dataSource": "production",
     "public": true
   }
 }

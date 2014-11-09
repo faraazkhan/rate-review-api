@@ -15,10 +15,10 @@ module.exports = function mountLoopBackExplorer(server) {
   var explorerApp = explorer(server, {
     basePath: restApiRoot,
     uiDirs: [path.resolve(__dirname, '..','..', 'docs')],
-    apiInfo: {
-      'title': 'Healthcare.gov Rate Review API',
-      'description': 'Try the API!'
-    },
+    //apiInfo: {
+      //'title': 'Healthcare.gov Rate Review API',
+      //'description': 'Try the API!'
+    //},
     version: '0.1-unreleasable'
    });
   server.use('/', explorerApp);
